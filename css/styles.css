@@ -79,13 +79,6 @@ ul{
     background-color: rgb(250, 190, 242);
     padding: 20px;
 }
-footer ul{
-    list-style-type: none;
-}
-body ul li a{
-    color: #78288C;
-    text-decoration: none;
-}
 .centrarTitulo div{
     text-align: center;
      padding: 50px;
@@ -131,4 +124,26 @@ aside img{
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     }
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+footer ul{
+    list-style-type: none;
+}
+footer{
+    display: inline-flex;
+    background: pink;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+body ul li a{
+    color: #000;
+    text-decoration: none;
 }
