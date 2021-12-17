@@ -66,12 +66,12 @@ ul{
     border: 1px solid;
     background-color: #fad2e1
    }
-.servicios div{
-    display: inline;
+.mainServicios .servicios div{
+    display: block;
     text-align: center;
     border: 1px solid;
     padding: 10px;
-    margin: 10px;
+    margin: 30px;
     font-weight: bold;
 }
 .centrarYcolor h3{
@@ -91,32 +91,6 @@ body ul li a{
      padding: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/*Contenedor del index*/
-.contenedor{
-    height: 100vh;
-    display: grid;
-    grid-template-areas: 
-    "nav nav nav"
-    "section section section"
-    "footer footer footer";
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: start;
-    align-items: start; 
-}
-.nav{
-    grid-area: nav;
-    width: 100%;
-}
-.logo{
-    grid-area: section;
-    justify-self: center;
-    align-self: center;
-}
-.footer{
-    grid-area: footer;
-    width: 100%;
-}
 /*Servicios-para mobile*/
 #grid{
     display: grid;
@@ -133,7 +107,6 @@ body ul li a{
 }
 .mainServicios{
     grid-area: container;
-    justify-self: center;
 }
 aside{
     grid-area: prod;
