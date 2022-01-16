@@ -16,19 +16,46 @@
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">INICIO</a></li>
-                    <li><a href="./productos.html">PRODUCTOS</a></li>
-                    <li><a href="./nosotros.html">NOSOTROS</a></li>
-                    <li><a href="./contacto.html">CONTACTO</a></li>
-                    <li><a href="./servicios.html">SERVICIOS</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand">DALTON BAKERY</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarid" aria-controls="navbarid" aria-expanded="false" aria-label="Toggle navigation">
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarid">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./productos.html#bombones">BOMBONES</a></li>
+                          <li><a class="dropdown-item" href="./productos.html#cakes">CAKES</a></li>
+                          <li><a class="dropdown-item" href="./productos.html#alfajores">ALFAJORES</a></li>
+                          <li><a class="dropdown-item" href="./productos.html#cookies">COOKIES</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="./productos.html#especialidad">Especialidad de la casa</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./daltonbox.html">Dalton-Box</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
             </nav>
         </header>
         <main>
             <div class="centrarTitulo">
-                <h1>Pastelería artesanal</h1>
+                <h1>Sobre nosotros</h1>
             </div>
             <div class="linea"></div>
             <p class="text-center" >
@@ -36,17 +63,28 @@
                 En Dalton Bakery consideramos que todo lo que se hace con amor está bien hecho.. es por esta razón que ponemos el 100% de nosotros para que disfrutes de nuestros productos tanto como nosotros disfrutamos de hacerlos!
             </p>
 
-            <img src="multimedia/materiaPrima5.jpg" class="rounded float-start" alt="...">
-            <img src="multimedia/materiaPrima4.jpg" class="rounded float-end" alt="...">
+            <img src="multimedia/materiaPrima5.jpg" class="rounded float-start" alt="Imagen manos amasando">
+            <img src="multimedia/materiaPrima4.jpg" class="rounded float-end" alt="Imagen palo de amasar">
              <p class="pMuyCentrada">
                 Nuestro objetivo es brindarles un producto de gran calidad. Por esta razón nos caracterizamos por la implementación de materia prima de excelente calidad.<br><br>
                 La mayoría de las recetas son sumamente importantes para nosotros, ya que venimos de una familia de panaderos y hemos guardado con suma delicadeza los escritos de la abuela Granny, a quien guardaremos por siempre en nuestros corazones.
             </p>
-            <img src="multimedia/materiaPrima2.jpg" class="rounded mx-auto d-block" alt="...">
-        
+            <div class="container-md">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <img src="multimedia/materiaPrima1.jpg" class="rounded float-start" alt="Imagen manteca y harina">
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <img src="multimedia/materiaPrima3.jpg" class="rounded mx-auto d-block" alt="Imagen manos en la masa">
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <img src="multimedia/materiaPrima2.jpg" class="rounded float-end" alt="Imagen huevos">   
+                    </div>
+                </div>
+            </div>
             <div class="container-md">
                 <form>
-                  <legend>Complete el siguiente formulario con sus datos, nos comunicaremos con usted a la brevedad.</legend>
+                  <legend>Complete el siguiente formulario con sus datos y nos comunicaremos con usted a la brevedad.</legend>
                   <div class="mb-3">
                     <label for="nombre" class="form-label">Nombre</label>
                     <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">

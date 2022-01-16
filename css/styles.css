@@ -2,9 +2,7 @@
     margin: 0;
     padding:0;
 }
-body{
-    font-family: 'STIX Two Text', serif;
-}
+
 .linea{
     height: 1px;
     width: auto;
@@ -56,10 +54,6 @@ ul{
     padding: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
-}
-.centrarVideo{
-    width: 400px;
-    margin: 60px auto;
 }
 .servicios li{
     border: 1px dashed black;
@@ -161,11 +155,6 @@ body ul li a{
 
 .scale:hover{
     transform: scale(1.1);
-}
-form{
-   height: 100vh;
-   margin: 50px;
-   text-align: center;
 }
 p{
     font-size: 18px;
