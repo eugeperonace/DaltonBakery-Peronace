@@ -167,3 +167,12 @@ form{
    margin: 50px;
    text-align: center;
 }
+p{
+    font-size: 18px;
+    padding: 4% 18% 2% 18%;
+}
+
+.pMuyCentrada{
+    padding: 7% 40% 8% 40%;
+    text-align: center;
+}
