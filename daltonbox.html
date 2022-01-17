@@ -8,10 +8,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
-        <!-- estilos -->
-        <link rel="stylesheet" href="css/styles.css">
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- estilos -->
+        <link rel="stylesheet" href="css/styles.css">
         <title>Contacto</title>
     </head>
 
@@ -54,24 +54,72 @@
                 </div>
             </nav>
         </header>
-    
         <main>
             <div class="centrarTitulo">
-                <h1>DALTON-BOX</h1>
-                <div>
-                    ¡Regalá una DALTON BOX!
-                    ¡A compartir!
+                <h1 class="col-12 col-md-12 col-xl-12">
+                  DALTON-BOX
+                </h1>
+                  <div class="d-flex flex-wrap">
+                    <div class="col-12 col-md-6 col-xl-4">Regalá una DALTON BOX</div>
+                    <div class="col-12 col-md-6 col-xl-4">¡Llegó el momento de compartir!</div>
+                    <div class="col-12 col-md-12 col-xl-4">¿Qué estás esperando?</div>
+                    <div class="col-12 col-md-12 col-xl-12">
+                      Como nos dimos cuenta de que con uno o dos de nuestros productos no quedabas satisfecho, decidimos crear estas DALTON BOX para que puedas compartir nuestras delicias con quien más quieras!
+                    </div>
+                  </div>
+                
+                <div class="col-12 col-md-12 col-xl-12">
+                  ELEGI LA QUE MÁS TE GUSTE
+                </div>
 
-                    Como nos dimos cuenta de que con uno o dos de nuestros productos no quedabas satisfecho, decidimos crear estas DALTON BOX para que puedas compartir estas delicias con quien más quieras!
-                </div>  
+                <div id="carouselBox" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselBox" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselBox" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselBox" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselBox" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="multimedia/boxBrunch.jpg" class="d-block w-100" alt="Box brunch">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>BOX BRUNCH</h5>
+                        <p>Sandwich capresse, galletitas de limón y chocolate, scons de queso.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="multimedia/boxCakes.jpg" class="d-block w-100" alt="Box cakes">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>BOX MINI-CAKES</h5>
+                        <p>Mini cheesecakes y lemon pie.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="multimedia/boxScons.jpg" class="d-block w-100" alt="Box scons">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>BOX SCONS</h5>
+                        <p>Scons de queso y cuadraditos de bownie.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="multimedia/boxTartas.jpg" class="d-block w-100" alt="Box tartas">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>BOX MINI-TARTAS</h5>
+                        <p>Mini tartas sabor chocolate, vainilla, limón y frutilla.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselBox" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselBox" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
         </main>
-        <br>
-        <div class="centrarYcolor">
-            <h3>
-                Email: dalton.bakery@gmail.com 
-            </h3>
-        </div>
-        <br>
         <footer>
             <div class="linea"></div>
             <br>
