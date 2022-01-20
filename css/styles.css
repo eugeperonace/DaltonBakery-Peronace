@@ -35,15 +35,6 @@
     width: 306px;
     height: 306px;
 }
-li{
-    margin-left: 20px;
-    display: inline;
-    font-weight: 100;
-    font-size: 20px;
-}
-ul{
-    list-style: none;
-}
 .centrarTitulo h1{
     font-weight: 500;
     font-size: 30px;
@@ -134,20 +125,6 @@ aside img{
     align-items: center;
     height: 100vh;
 }
-footer ul{
-    list-style-type: none;
-}
-footer{
-    display: inline-flex;
-    background: pink;
-    align-items: center;
-    position: relative;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+48,0e0e0e+100 */
-    background: linear-gradient(to bottom,  rgba(125,126,125,1) 48%,rgba(14,14,14,1) 100%); 
-}
 body ul li a{
     color: #000;
     text-decoration: none; 
@@ -173,3 +150,12 @@ p{
 .imgBoxMax{
     max-width: 640px;
 }
+
+.encabezadoYfooter{
+    background-image: url('../multimedia/encabezadoFooter.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+
