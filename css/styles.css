@@ -165,3 +165,11 @@ p{
     padding: 7% 40% 8% 40%;
     text-align: center;
 }
+
+.bg-pink{
+    background-color: #FADFF5;
+}
+
+.imgBoxMax{
+    max-width: 640px;
+}
