@@ -158,4 +158,6 @@ p{
     background-size: cover;
     min-height: 100px;
 }
-
+.imgBoxMax{
+    max-width: 640px;
+}
