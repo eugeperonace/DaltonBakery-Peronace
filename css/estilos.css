@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Nunito Sans', sans-serif; }
+
+.productos #bombones, #cakes, #alfajores, #cookies, #especialidad {
+  background-color: #FADFE0; }
+  .productos #bombones p, #cakes p, #alfajores p, #cookies p, #especialidad p {
+    font-style: italic; }
+
+img:hover {
+  transform: scale(1.1); }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+p {
+  font-size: 19px;
+  padding: 4% 18% 2% 18%; }
+
+.bg-pink {
+  background-color: #FADFF5; }
+
+.imgBoxMax {
+  max-width: 640px; }
+
+.encabezadoYfooter {
+  background-image: url("../multimedia/encabezadoFooter.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100px; }
+
+a {
+  color: #000; }
+
+a:hover {
+  color: #ff0080; }
+
+.bg-form {
+  background: linear-gradient(to bottom, #ffe2f0 20%, #ffb2d6 48%, #ea72b6 81%); }
