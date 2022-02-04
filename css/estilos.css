@@ -87,3 +87,7 @@ a {
 .textoNosotros p {
   font-weight: normal;
   font-style: italic; }
+
+.fontNav {
+  font-size: 15px;
+  font-style: italic; }

@@ -105,3 +105,7 @@ a{
         @include fontWeightAndStyle(normal, italic)
     }
 }
+.fontNav{
+    font-size: 15px;
+    font-style: italic;
+}
