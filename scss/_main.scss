@@ -99,10 +99,10 @@ a{
 }
 .textoNosotros{
     h3{
-        @include fontWeightAndStyle(bold, normal)
+        @include fontWeightAndStyle(normal, italic);
     }
     p{
-        @include fontWeightAndStyle(normal, italic)
+        @include fontWeightAndStyle(bold, normal);
     }
 }
 .fontNav{

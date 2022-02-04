@@ -81,12 +81,12 @@ a {
   color: rgba(112, 0, 0, 0.548); }
 
 .textoNosotros h3 {
-  font-weight: bold;
-  font-style: normal; }
-
-.textoNosotros p {
   font-weight: normal;
   font-style: italic; }
+
+.textoNosotros p {
+  font-weight: bold;
+  font-style: normal; }
 
 .fontNav {
   font-size: 15px;
