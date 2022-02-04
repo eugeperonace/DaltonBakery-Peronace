@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.productos #bombones, #cakes, #alfajores, #cookies, #especialidad {
+  background-color: #FADFE0;
+  font-style: italic;
+}
+
+img:hover {
+  border-style: double;
+  border-width: 5px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+p {
+  font-size: 19px;
+  padding: 4% 18% 2% 18%;
+}
+
+.bg-pink {
+  background-color: #FADFE0;
+}
+
+.imgBoxMax {
+  max-width: 640px;
+}
+
+.encabezadoYfooter {
+  background-image: url("../multimedia/encabezadoFooter.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100px;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #ff0080;
+}
+
+.bg-form {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #ffe2f0), color-stop(48%, #ffb2d6), color-stop(81%, #ea72b6));
+  background: linear-gradient(to bottom, #ffe2f0 20%, #ffb2d6 48%, #ea72b6 81%);
+}
+
+.buttonMobile {
+  background-color: gray;
+}
+
+.buttonForm {
+  background-color: #ffceff;
+  color: #000;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.buttonForm:hover {
+  background-color: #b359b3;
+  color: white;
+  border-color: #000;
+}
+
+.imgConBorde:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.textoServicios h3 {
+  font-weight: bold;
+}
+
+.textoServicios h4 {
+  color: #963296;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-style: double;
+          text-decoration-style: double;
+  -webkit-text-decoration-color: #f862ec;
+          text-decoration-color: #f862ec;
+}
+
+.box h4 {
+  font-size: 23px;
+  color: #000;
+}
+
+.box p {
+  font-size: 19px;
+  color: rgba(112, 0, 0, 0.548);
+}
+
+.textoNosotros h3 {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.textoNosotros p {
+  font-weight: normal;
+  font-style: italic;
+}
+/*# sourceMappingURL=estilos.css.map */

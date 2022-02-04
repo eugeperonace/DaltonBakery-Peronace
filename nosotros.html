@@ -16,11 +16,10 @@
     </head>
     <body>
         <header>
-          <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <div class="container-fluid">
                 <a class="navbar-brand">DALTON BAKERY</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarid" aria-controls="navbarid" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler buttonMobile border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarid" aria-controls="navbarid" aria-expanded="false" aria-label="Toggle navigation">
                   </button>
                   <div class="collapse navbar-collapse" id="navbarid">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -53,36 +52,38 @@
                   </div>
                 </div>
             </nav>
-          </div>
         </header>
         <main>
             <div class="container-fluid text-center align-items-center">
               <h1 class="col-12 col-md-12 col-xl-12 mx-auto mb-5 py-5 encabezadoYfooter">SOBRE NOSOTROS</h1>
-              <p class="text-center col-12">
-                  ¡Somos una pastelería artesanal dedicada a la producción de las mejores delicias de Buenos Aires tales como CAKES, ALFAJORES, BOMBONES y COOKIES!
-                  En Dalton Bakery consideramos que todo lo que se hace con amor está bien hecho.. es por esta razón que ponemos el 100% de nosotros para que disfrutes de nuestros productos tanto como nosotros disfrutamos de hacerlos!
-              </p>
-              <div class="row bg-light">
-                <img src="multimedia/matPrima1.jpg" class="col-12 col-md-4" alt="Imagen manos amasando">
-                <p class="col-12 col-md-4 text-center">
-                    Nuestro objetivo es brindarles un producto de gran calidad. Por esta razón nos caracterizamos por la implementación de materia prima de excelente calidad.<br><br>
-                    La mayoría de las recetas son sumamente importantes para nosotros, ya que venimos de una familia de panaderos y hemos guardado con suma delicadeza los escritos de la abuela Granny, a quien guardaremos por siempre en nuestros corazones.<br><br>
-                    Cuando era chica mi salida preferida era ir a la casa de mi abuela Granny para merendar algo rico como lo que ella sabía preparar. El postre que mejor le salía era la deliciosa <a href="./productos.html#especialidad">BANANA CAKE</a>, la cual vas a poder deleitar junto a nosotros en Dalton Bakery.
-                </p>
-                <img src="multimedia/matPrima6.jpg" class="col-12 col-md-4" alt="Imagen palo de amasar">
+              <div class="textoNosotros">
+                <h3 class="text-center col-12 py-4">
+                    ¡Somos una pastelería artesanal dedicada a la producción de las mejores delicias de Buenos Aires tales como CAKES, ALFAJORES, BOMBONES y COOKIES!
+                    En Dalton Bakery consideramos que todo lo que se hace con amor está bien hecho.. es por esta razón que ponemos el 100% de nosotros para que disfrutes de nuestros productos tanto como nosotros disfrutamos de hacerlos!
+                </h3>
+                <div class="row bg-light">
+                  <img src="multimedia/matPrima1.jpg" class="col-12 col-md-4 pt-4" alt="Imagen manos amasando">
+                  <p class="col-12 col-md-4 text-center">
+                      Nuestro objetivo es brindarles un producto de gran calidad. Por esta razón nos caracterizamos por la implementación de materia prima de excelente calidad.<br><br>
+                      La mayoría de las recetas son sumamente importantes para nosotros, ya que venimos de una familia de panaderos y hemos guardado con suma delicadeza los escritos de la abuela Granny, a quien guardaremos por siempre en nuestros corazones.<br><br>
+                      Cuando era chica mi salida preferida era ir a la casa de mi abuela Granny para merendar algo rico como lo que ella sabía preparar. El postre que mejor le salía era la deliciosa <a href="./productos.html#especialidad">BANANA CAKE</a>, la cual vas a poder deleitar junto a nosotros en Dalton Bakery.
+                  </p>
+                  <img src="multimedia/matPrima6.jpg" class="col-12 col-md-4 pt-4" alt="Imagen palo de amasar">
+                </div>
               </div>
+              
             </div>
             <div class="container-md text-center">
                 <div class="row">
                   <h1 class="pt-5">Utilizamos materia prima de excelente calidad.</h1>
                     <div class="col-12 col-xl-4 py-5">
-                        <img src="multimedia/materiaPrima1.jpg" alt="Imagen manteca y harina">
+                        <img src="multimedia/materiaPrima1.jpg" alt="Imagen manteca y harina" class="imgConBorde">
                     </div>
                     <div class="col-12 col-xl-4 py-5">
-                        <img src="multimedia/materiaPrima3.jpg" alt="Imagen manos en la masa">
+                        <img src="multimedia/materiaPrima3.jpg" alt="Imagen manos en la masa" class="imgConBorde">
                     </div>
                     <div class="col-12 col-xl-4 py-5">
-                        <img src="multimedia/materiaPrima2.jpg" alt="Imagen huevos">   
+                        <img src="multimedia/materiaPrima2.jpg" alt="Imagen huevos" class="imgConBorde">   
                     </div>
                 </div>
             </div>
@@ -122,7 +123,7 @@
                     <input type="checkbox" class="form-check-input" id="terminos">
                     <label class="form-check-label" for="terminos">Acepto los términos y condiciones.</label>
                   </div>
-                  <button type="submit" class="btn btn-primary">Enviar datos</button>
+                  <button type="submit" class="btn btn-primary buttonForm fw-bold rounded-pill">Enviar datos</button>
                 </form>
             </div>
         </main>

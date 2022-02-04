@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.productos #bombones, #cakes, #alfajores, #cookies, #especialidad{
+    background-color: $bgColorPink;
+    font-style: italic;
+}
+
+img:hover{
+    border-style: double;
+    border-width: 5px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    font-size: 19px;
+    padding: 4% 18% 2% 18%;
+}
+.bg-pink{
+    background-color: $bgColorPink;
+}
+.imgBoxMax{
+    max-width: 640px;
+}
+.encabezadoYfooter{
+    background-image: url('../multimedia/encabezadoFooter.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+}
+a{
+    color: $colorBlack;
+    &:hover{
+       color: #ff0080; 
+    }
+}
+.bg-form{
+    background: linear-gradient(to bottom, rgba(255,226,240,1) 20%,rgba(255,178,214,1) 48%,rgba(234,114,182,1) 81%);
+}
+.buttonMobile{
+    background-color: gray;
+}
+.buttonForm{
+    background-color: rgb(255, 206, 255);
+    color: $colorBlack;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $colorBlack;
+
+    &:hover{
+        background-color: rgb(179, 89, 179);
+        color: white;
+        border-color: $colorBlack;
+    }
+}
+.imgConBorde{
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.textoServicios{
+    h3{
+        font-weight: bold;
+    }
+    h4{
+        color:rgb(150, 50, 150);
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-decoration-line: underline;
+        text-decoration-style: double;
+        text-decoration-color: $colorPink;
+    }
+}
+@mixin sizeAndColor($size, $color){
+    font-size: $size;
+    color: $color;
+}
+.box{
+    h4{
+        @include sizeAndColor(23px, $colorBlack);
+    }
+    p{
+        @include sizeAndColor(19px, rgba(112, 0, 0, 0.548));
+
+    }
+}
+@mixin fontWeightAndStyle($font, $style){
+    font-weight: $font;
+    font-style: $style;
+}
+.textoNosotros{
+    h3{
+        @include fontWeightAndStyle(bold, normal)
+    }
+    p{
+        @include fontWeightAndStyle(normal, italic)
+    }
+}

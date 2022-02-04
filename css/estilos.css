@@ -6,12 +6,12 @@ body {
   font-family: 'Nunito Sans', sans-serif; }
 
 .productos #bombones, #cakes, #alfajores, #cookies, #especialidad {
-  background-color: #FADFE0; }
-  .productos #bombones p, #cakes p, #alfajores p, #cookies p, #especialidad p {
-    font-style: italic; }
+  background-color: #FADFE0;
+  font-style: italic; }
 
 img:hover {
-  transform: scale(1.1); }
+  border-style: double;
+  border-width: 5px; }
 
 .logo {
   display: flex;
@@ -24,7 +24,7 @@ p {
   padding: 4% 18% 2% 18%; }
 
 .bg-pink {
-  background-color: #FADFF5; }
+  background-color: #FADFE0; }
 
 .imgBoxMax {
   max-width: 640px; }
@@ -38,9 +38,52 @@ p {
 
 a {
   color: #000; }
-
-a:hover {
-  color: #ff0080; }
+  a:hover {
+    color: #ff0080; }
 
 .bg-form {
   background: linear-gradient(to bottom, #ffe2f0 20%, #ffb2d6 48%, #ea72b6 81%); }
+
+.buttonMobile {
+  background-color: gray; }
+
+.buttonForm {
+  background-color: #ffceff;
+  color: #000;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000; }
+  .buttonForm:hover {
+    background-color: #b359b3;
+    color: white;
+    border-color: #000; }
+
+.imgConBorde:hover {
+  transform: scale(1.1); }
+
+.textoServicios h3 {
+  font-weight: bold; }
+
+.textoServicios h4 {
+  color: #963296;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: #f862ec; }
+
+.box h4 {
+  font-size: 23px;
+  color: #000; }
+
+.box p {
+  font-size: 19px;
+  color: rgba(112, 0, 0, 0.548); }
+
+.textoNosotros h3 {
+  font-weight: bold;
+  font-style: normal; }
+
+.textoNosotros p {
+  font-weight: normal;
+  font-style: italic; }
